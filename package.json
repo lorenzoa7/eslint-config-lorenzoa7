@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-lorenzoa7",
+  "version": "1.0.0",
+  "description": "ESLint configuration by LorenzoA7.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenzoa7/eslint-config-lorenzoa7.git"
+  },
+  "author": "lorenzoa7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorenzoa7/eslint-config-lorenzoa7/issues"
+  },
+  "homepage": "https://github.com/lorenzoa7/eslint-config-lorenzoa7#readme"
+}
