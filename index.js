@@ -7,8 +7,17 @@ module.exports = {
       react: {
         version: 'detect',
       },
+      'import/parsers': {
+        [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
+      },
     },
-    extends: ['plugin:react/recommended', 'plugin:react-hooks/recommended', 'standard', 'plugin:prettier/recommended'],
+    extends: [
+      'plugin:react/recommended', 
+      'plugin:react-hooks/recommended', 
+      'standard', 
+      'plugin:@typescript-eslint/recommended',
+      'plugin:prettier/recommended'
+    ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
         ecmaFeatures: {
@@ -17,7 +26,10 @@ module.exports = {
       ecmaVersion: 'latest',
       sourceType: 'module',
     },
-    plugins: ['react', '@typescript-eslint'],
+    plugins: [
+      'react', 
+      '@typescript-eslint'
+    ],
     rules: {
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
