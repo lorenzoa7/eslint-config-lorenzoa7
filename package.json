@@ -1,5 +1,5 @@
 {
-  "name": "@lorenzoa7/eslint-config",
+  "name": "eslint-config-lorenzoa7",
   "version": "1.0.0",
   "description": "ESLint configuration by LorenzoA7.",
   "main": "index.js",
