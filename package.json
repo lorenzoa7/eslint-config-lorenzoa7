@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-lorenzoa7",
+  "name": "@lorenzoa7/eslint-config",
   "version": "1.0.0",
   "description": "ESLint configuration by LorenzoA7.",
   "main": "index.js",
@@ -16,11 +16,10 @@
     "url": "https://github.com/lorenzoa7/eslint-config-lorenzoa7/issues"
   },
   "homepage": "https://github.com/lorenzoa7/eslint-config-lorenzoa7#readme",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "eslint": "^8.44.0",
-    "eslint-config-next": "^13.4.8",
     "eslint-config-prettier": "^8.8.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.27.5",
@@ -29,7 +28,6 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^3.0.0",
-    "typescript": "^5.1.6"
+    "prettier": "^3.0.0"
   }
 }
