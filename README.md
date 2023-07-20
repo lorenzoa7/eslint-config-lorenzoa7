@@ -11,13 +11,13 @@
 
 Install dependencies:
 ```
-npm i -D eslint @lorenzoa7/eslint-config
+npm i -D eslint eslint-config-lorenzoa7
 ```
 Inside `.eslintrc.json`:
 ```
 {
   "extends": [
-    "@lorenzoa7/eslint-config", 
+    "eslint-config-lorenzoa7", 
     "next/core-web-vitals"
   ]
 }
