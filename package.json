@@ -1,33 +1,35 @@
 {
-  "name": "eslint-config-lorenzoa7",
-  "version": "1.0.1",
+  "name": "@lorenzoa7/eslint-config",
+  "version": "1.1.0",
+  "private": false,
   "description": "ESLint configuration by LorenzoA7.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lorenzoa7/eslint-config-lorenzoa7.git"
-  },
   "author": "lorenzoa7",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lorenzoa7/eslint-config-lorenzoa7/issues"
+  "repository": {
+    "url": "lorenzoa7/eslint-config-lorenzoa7"
   },
-  "homepage": "https://github.com/lorenzoa7/eslint-config-lorenzoa7#readme",
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": ">=4"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.61.0",
-    "@typescript-eslint/parser": "^5.61.0",
-    "eslint": "^8.44.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^16.0.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^3.0.0"
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "prettier": "^3.0.0",
+    "eslint-plugin-prettier": "5.0.0-alpha.2"
   }
 }
