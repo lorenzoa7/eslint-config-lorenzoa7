@@ -15,7 +15,8 @@ module.exports = {
   extends: [
     'standard',
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    'plugin:prettier-plugin-tailwindcss/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
