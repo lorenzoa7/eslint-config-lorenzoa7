@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lorenzoa7",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "private": false,
   "description": "ESLint configuration by LorenzoA7.",
   "main": "index.js",
